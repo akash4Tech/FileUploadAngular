@@ -21,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     ButtonModule,
     HttpClientModule,
     FormsModule,
+    FileuploadComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

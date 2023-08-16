@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FileuploadComponent implements OnInit {
 
 
-  fileuploadUrl:any
+  fileuploadUrl = ''
   Formatdata:any
   constructor(
 
