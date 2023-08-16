@@ -13,7 +13,8 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    FileuploadComponent
+    FileuploadComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -21,9 +22,9 @@ import { FormsModule } from '@angular/forms';
     ButtonModule,
     HttpClientModule,
     FormsModule,
-    FileuploadComponent
+    FileuploadComponent,
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
