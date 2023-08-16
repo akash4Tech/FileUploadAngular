@@ -1,4 +1,4 @@
 <div class=" container">
-    <input type="file"/>  
-<p-button label="Upload"></p-button>
+    <input (change)="selectfile($event)" type="file"/>  
+<p-button (click)="fileupload()"   label="Upload"></p-button>
 </div>
